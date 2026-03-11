@@ -1,3 +1,6 @@
+import ImageShow from "./components/ImageShow"
+import Index from "./components/Index"
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -5,12 +8,13 @@ function App() {
 
   return (
     <>
-      <div className="h-screen w-full bg-[#F5F5F5] grid grid-cols-2 ">
-        <div>
-
+      <div className="h-screen w-full bg-[#FFFFFF] grid grid-cols-[1fr_2fr]">
+        <div className="p-5 sticky top-0 h-screen">
+          <Navbar />
+          <Index />
         </div>
-        <div>
-
+        <div className=" h-screen overflow-y-auto ">
+          <ImageShow />
         </div>
 
       </div>
