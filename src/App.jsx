@@ -1,23 +1,21 @@
-import ImageShow from "./components/ImageShow"
-import Index from "./components/Index"
-import Navbar from "./components/Navbar"
 
+import { Routes, Route } from "react-router-dom"
+import Process from "./components/Process"
+import About from "./components/About"
+import MainIndex from "./components/MainIndex"
 
 function App() {
 
 
   return (
     <>
-      <div className="h-screen w-full bg-[#FFFFFF] grid grid-cols-[1fr_2fr]">
-        <div className="p-5 sticky top-0 h-screen">
-          <Navbar />
-          <Index />
-        </div>
-        <div className=" h-screen overflow-y-auto ">
-          <ImageShow />
-        </div>
+      <Routes>
+        <Route path='/' element={<MainIndex />} />
+        <Route path='/process' element={<Process />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
 
-      </div>
+      
     </>
   )
 }
