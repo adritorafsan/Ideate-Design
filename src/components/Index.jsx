@@ -1,5 +1,4 @@
 
-
 const Index = () => {
     const clients = ["Whop", "Aviato", "Tally", "Wish", "Rainbow", "Tiny Wins", "Linktree", "PVP", "Bags", "Surf", "Flooz", "LetsPay", "Candle", "Usual"];
     const workstyles = ["Brand sprints", "Wireframing", "User journeys", "Social assets", "Product design", "UX auditing", "Web design", "Consulting"];
@@ -24,11 +23,11 @@ const Index = () => {
                     <button className="text-center text-[16px] py-1 px-2 rounded-2xl bg-black text-white hover:bg-gray-950 cursor-pointer">subscribe</button>
                     <button className="text-center text-[16px] py-1 px-2 rounded-2xl bg-[#F5F5F5] text-black hover:bg-[#f2ecec] cursor-pointer">Book a call</button>
                 </div>
-                
+
             </div>
 
             <div className=" space-y-5">
-                <p className="text-[16px] max-w-xs font-normal text-[#737373]"><span className=" underline">We charge 10K USD per month. </span>Projects typically take 3-6 weeks. You can pause or cancel anytime for ultimate flexibility.</p>
+                <p className="text-[16px] max-w-xs font-normal text-[#737373]"><span className=" underline">We charge 10K USD per month.</span>  Projects typically take 3-6 weeks. You can pause or cancel anytime for ultimate flexibility.</p>
                 <ul className="grid grid-cols-2 justify-between items-center gap-y-1 text-[#737373] max-w-3/5">
                     {workstyles.map((item, index) => (
                         <li key={index}>{item}</li>
