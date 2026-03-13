@@ -25,8 +25,8 @@ const Navbar = () => {
           {Navlinks.map((item, index) => (
             <Link
               to={item.path}
-              className={`${selected === index ? 'text-black' : 'text-[#737373]'}  text-[16px]  cursor-pointer hover:text-black transition-all ease-in duration-200 font-normal`}
               onClick={() => Handleselect(index)}
+              className={`${selected === index ? 'text-black' : 'text-[#737373]'}  text-[16px]  cursor-pointer hover:text-black transition-all ease-in duration-200 font-normal`}
               key={index}
             >
               {item.name}
