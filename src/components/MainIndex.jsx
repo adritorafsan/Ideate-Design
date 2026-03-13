@@ -4,12 +4,12 @@ import ImageShow from '../components/ImageShow'
 
 const MainIndex = () => {
     return (
-        <div className="h-screen w-full bg-[#FFFFFF] grid  gap-y-5 md:gap-y-0 md:grid-cols-[1fr_2fr]">
-            <div className="p-5 md:sticky md:top-0 h-screen mx-auto mb-20 md:mx-0">
+        <div className=" w-full bg-[#FFFFFF] grid  gap-y-5 md:gap-y-0 md:grid-cols-[1fr_2fr]">
+            <div className="p-5 md:sticky md:h-screen md:top-0  mx-auto mb-20 md:mx-0">
                 <Navbar />
                 <Index />
             </div>
-            <div className=" h-screen mt-10 md:mt-0 md:overflow-y-auto md:mx-auto">
+            <div className="  mt-10 md:mt-0  md:mx-auto">
                 <ImageShow />
             </div>
 
