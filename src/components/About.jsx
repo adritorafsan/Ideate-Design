@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-      <div className="h-screen w-full bg-[#FFFFFF] grid grid-cols-[1fr_2fr]">
+      <div className="h-screen w-full bg-[#FFFFFF] grid justify-center items-center md:grid-cols-[1fr_2fr]">
             <div className="p-5 sticky top-0 h-screen">
                <Navbar />
                <div className='mt-10 space-y-4.5'>

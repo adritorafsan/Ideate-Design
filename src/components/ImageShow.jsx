@@ -30,7 +30,7 @@ const ImageShow = () => {
 
         <div className=' space-y-1 w-full flex flex-col items-end'>
             {images.map((image, index) => (
-                <div className=' space-y-1 py-20 w-[97%] max-h-full bg-[#F5F5F5] flex flex-col justify-center items-center'>
+                <div className=' space-y-1 py-20 w-full md:w-[97%] max-h-full bg-[#F5F5F5] flex flex-col justify-center items-center'>
                     <img className='size-2/3' key={index} src={image} alt="loading..." />
                 </div>
 
